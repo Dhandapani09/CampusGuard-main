@@ -1,4 +1,3 @@
-```dockerfile
 # ==============================
 # Stage 1: Build React Application
 # ==============================
@@ -35,4 +34,4 @@ EXPOSE 80
 
 # Keep Nginx running in the foreground
 CMD ["nginx", "-g", "daemon off;"]
-```
+
